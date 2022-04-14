@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react-native",
+    "lib": ["es2019"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": {
+      "~style": ["./src/gStyle"],
+      "~screens/*": ["./src/screens/*"],
+      "~components/*": ["./src/components/*"]
+    },
+    "noImplicitThis": true
+  },
+  "extends": "expo/tsconfig.base"
+}

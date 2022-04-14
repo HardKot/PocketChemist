@@ -1,0 +1,8 @@
+{
+  "expo": {
+    "name": "PocketChemist",
+    "slug": "PocketChemist",
+    "version": "0.0.1",
+    "assetBundlePatterns": ["**/*"]
+  }
+}
